@@ -16,7 +16,7 @@ interface IPropTypes {
 let CONF = {
   tip: [
     {
-      text: "未提交X人",
+      text: "未提交X人d",
       fillStyle: "#ccc"
     },
     {
