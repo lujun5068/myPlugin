@@ -3,6 +3,7 @@
   "compilerOptions": {
       "target": "es6",
       "jsx": "react"
+      // "typeRoots": ["./node_modules/@types/", "./typings/"]
   },
   "files": [
     "./src/index.tsx"
