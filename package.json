@@ -2,7 +2,9 @@
   "name": "myPlugin",
   "author": "LuJun",
   "version": "1.0.0",
-  "keywords": ["npm plugin demo"],
+  "keywords": [
+    "npm plugin demo"
+  ],
   "devDependencies": {
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "^7.1.6",
@@ -26,5 +28,9 @@
     "build": "webpack --config webpack.config.js --progress --colors",
     "test": "jest ./test/myPlugin.test.js",
     "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "dependencies": {
+    "find-up": "^4.0.0",
+    "yargs": "^13.2.4"
   }
 }
